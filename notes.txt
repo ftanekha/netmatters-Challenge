@@ -1,0 +1,24 @@
+Challenge two
+=============
+
+*numbers.php
+Task:
+Create a PHP program that takes input of 4 numeric values via a console program
+- adds the values together and outputs the answer
+- subtracts the values and outputs the answer
+- multiplies the values and outputs the answer
+- divides the values and outputs the answer
+- combination of the above and outputs the answer
+ 
+Answers should be displayed on a new line.
+
+
+*strings.php
+Task:
+Create a PHP program that takes input of a sentence via a console program and
+- transforms the string to all uppercase letters
+- transforms the string to all lowercase letters
+- makes the string's first character uppercase
+- makes the string's first character of all the words uppercase
+
+Answers should be displayed on a new line.

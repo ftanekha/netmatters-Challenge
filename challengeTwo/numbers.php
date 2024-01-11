@@ -21,21 +21,25 @@ $user_input = getUserInput();
 #print_r($user_input);
 #echo implode(', ', $user_input);
 #echo "\n";
+
 //part A: add the values together
 $sum_of_user_input = $user_input[0] + $user_input[1] + $user_input[2] + $user_input[3];
 #output the answer
 echo "The sum of the integers you entered is " . $sum_of_user_input . ".";
 echo "\n";
+
 //part B: subtract the values together (negate the sum)
 $diff_of_user_input = 0 - $sum_of_user_input;
 #output the answer
 echo "The resulting difference of the integers you entered is " . $diff_of_user_input . ".";
 echo "\n";
+
 //part C: multiply the values together
 $product_of_user_input = $user_input[0] * $user_input[1] * $user_input[2] * $user_input[3];
 #output the answer
 echo "The product of the integers you entered is " . $product_of_user_input . ".";
 echo "\n";
+
 //part D: divide the values together
 $quotient_of_user_input = 1 / $product_of_user_input;
 #output the answer
