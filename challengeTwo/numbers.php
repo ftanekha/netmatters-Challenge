@@ -7,10 +7,17 @@ function getUserInput(){
     #get user input as string
     $user_input = readline("e.g 1, 2, 4... >>>  ");
     echo "\n";
-    echo $user_input;
-    echo "\n";
     #convert user-input strings to integers
     $user_input_string_array = explode(',', $user_input);
+    #validate user-input
+    if(count($user_input_string_array) !== 4){
+        echo "You need to type FOUR integers in the console!\n";
+        return getUserInput();
+    }
+    echo "***************************\n";
+    echo "Thank you :)\n";
+    echo "***************************\n";
+    #finally
     $user_input_int_array = [
         $user_input_string_array[0], $user_input_string_array[1], $user_input_string_array[2], $user_input_string_array[3]
     ];
